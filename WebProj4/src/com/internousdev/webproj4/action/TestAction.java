@@ -10,7 +10,9 @@ import com.opensymphony.xwork2.ActionSupport;
 public class TestAction extends ActionSupport{
 
 	private String username;
+
 	private String password;
+
 	private List<LoginDTO>loginDTOList = new ArrayList<LoginDTO>();
 
 	public String execute(){
@@ -44,5 +46,13 @@ public class TestAction extends ActionSupport{
 
 	public void setPassword(String password){
 		this.password = password;
+	}
+
+	public List<LoginDTO>getLoginDTOList(){
+		return loginDTOList;
+	}
+
+	public void setLoginDTOList(List<LoginDTO>loginDTOList){
+		this.loginDTOList = loginDTOList;
 	}
 }
