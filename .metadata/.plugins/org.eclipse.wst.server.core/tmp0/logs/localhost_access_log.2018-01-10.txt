@@ -113,3 +113,8 @@
 0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:39:25 +0900] "GET /WebProj5/ HTTP/1.1" 200 824
 0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:39:27 +0900] "POST /WebProj5/WelcomeAction.action HTTP/1.1" 200 979
 0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:39:32 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 419
+127.0.0.1 - - [10/Jan/2018:21:47:31 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:47:33 +0900] "GET /WebProj4/ HTTP/1.1" 200 2424
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:47:35 +0900] "POST /WebProj4/InquiryAction.action;jsessionid=77BBED5BE6C53401E50E3BC17D79C00B HTTP/1.1" 404 1059
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:47:40 +0900] "POST /WebProj4/WelcomeAction.action;jsessionid=77BBED5BE6C53401E50E3BC17D79C00B HTTP/1.1" 200 950
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:21:47:46 +0900] "POST /WebProj4/LogiAction HTTP/1.1" 200 3437
