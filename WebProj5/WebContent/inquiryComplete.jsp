@@ -14,6 +14,7 @@
 <tr>
 <th>名前</th>
 <th>お問い合わせの種類</th>
+<th>お問い合わせ内容</th>
 </tr>
 
 <s:iterator value="#session.inquiryDTOList">

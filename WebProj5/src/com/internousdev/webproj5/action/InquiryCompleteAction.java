@@ -51,7 +51,7 @@ public class InquiryCompleteAction extends ActionSupport implements SessionAware
 		return body;
 	}
 
-	public void setBVody(String body){
+	public void setBody(String body){
 		this.body = body;
 	}
 

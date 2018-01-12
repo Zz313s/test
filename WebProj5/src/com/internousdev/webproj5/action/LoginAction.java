@@ -11,6 +11,7 @@ import com.internousdev.webproj5.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport implements SessionAware{
+
 	private String username;
 	private String password;
 	private List<LoginDTO>loginDTOList = new ArrayList<LoginDTO>();
@@ -24,11 +25,15 @@ public class LoginAction extends ActionSupport implements SessionAware{
 		LoginDAO dao=new LoginDAO();
 
 		loginDTOList=dao.select(username, password);
+		if(loginDTOList.size()==0){
+			return ERROR;
+		}
 		if(this.username.equals(loginDTOList.get(0).getUsername())
 				&& this.password.equals(loginDTOList.get(0).getPassword())){
 			session.put("loginDTOList",loginDTOList);
 			ret=SUCCESS;
 		}else{
+			session.put("loginDTOList", loginDTOList);
 			ret=ERROR;
 		}
 		return ret;
