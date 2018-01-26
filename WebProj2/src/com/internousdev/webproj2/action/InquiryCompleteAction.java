@@ -10,6 +10,9 @@ public class InquiryCompleteAction extends ActionSupport{
 	private String body;
 
 	public String execute(){
+		System.out.println(name);
+		System.out.println(qtype);
+		System.out.println(body);
 
 		String ret = ERROR;
 		InquiryCompleteDAO dao = new InquiryCompleteDAO();
