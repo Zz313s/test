@@ -1,1 +1,13 @@
 @CHARSET "UTF-8";
+
+table{
+	whidth:auto;
+	border-spacing:0;
+	font-size:14px;
+}
+
+table th{
+	color:#fff;
+	padding: 8ps 15px;
+	baclground:#258;
+}
