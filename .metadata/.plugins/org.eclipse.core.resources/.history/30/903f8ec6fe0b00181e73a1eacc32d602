@@ -1,7 +1,0 @@
-@CHARSET "UTF-8";
-
-table{
-	whidth:auto;
-	border-spacing:0;
-	font-size:14px;
-}

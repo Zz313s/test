@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="plete" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="plete"/>
+			<item value="templete"/>
+			<item value="s"/>
 			<item value="LogiAction"/>
 			<item value="LoginAction"/>
 			<item value="com.internousdev.webproj2.action.InquiryCompleteActio"/>
@@ -23,7 +26,7 @@
 		<item value="361" key="DIALOG_WIDTH"/>
 		<item value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI" key="DIALOG_FONT_NAME"/>
 		<item value="444" key="DIALOG_HEIGHT"/>
-		<item value="1277" key="DIALOG_X_ORIGIN"/>
-		<item value="322" key="DIALOG_Y_ORIGIN"/>
+		<item value="860" key="DIALOG_X_ORIGIN"/>
+		<item value="157" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

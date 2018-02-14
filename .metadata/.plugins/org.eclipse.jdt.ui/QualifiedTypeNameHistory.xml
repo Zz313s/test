@@ -4,4 +4,8 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj2.dao.HelloStrutsDAO"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dao.BuyItemCompleteDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.BuyItemDTO"/>
 </qualifiedTypeNameHistroy>
